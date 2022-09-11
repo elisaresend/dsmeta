@@ -17,7 +17,7 @@ function SalesCard() {
         axios.get("http://localhost:8080/sales")
              .then(response => {
                 console.log(response.data);
-             })
+             });
     }, []);
 
     return (
